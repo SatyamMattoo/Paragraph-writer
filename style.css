@@ -1,0 +1,82 @@
+*
+{
+    margin  : 0%;
+    padding : 0%;
+    background-color: rgb(50, 51, 51);
+}
+
+.container
+{
+    padding: 3vh;
+    min-height: 100vh;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(187, 181, 181);
+
+}
+
+.container h1{
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(187, 181, 181);
+}
+
+.container h2{
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(187, 181, 181);
+}
+
+#myBtn
+{
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    width: 20vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    border-radius: 10px;
+    
+}
+#myBtn:hover{
+    background-color: rgb(60, 60, 66);
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 7px;
+    width: 21vh;
+}
+
+#noOfWords{
+
+    background-color: rgb(49, 45, 45);
+    margin: auto;
+    padding:5px;
+    width: 30vh;
+    flex-wrap: wrap;
+    border: solid black 2px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+#noOfWords:hover{
+    transition: 0.3s;
+    padding: 7px;
+    width: 31vh;
+}
+
+#paragraph
+{
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    padding:2vh;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: auto;
+    background-color: rgb(144, 156, 156);
+    border: none;
+    border-radius: 10px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+
+}
